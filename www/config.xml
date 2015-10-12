@@ -15,6 +15,7 @@ Sebastian Frassia
   <access origin="*" />                 
    <allow-intent href="*" />
    <allow-navigation href="*" />
+   
 <access origin="*.pushwoosh.com"/>
 <access origin="http://127.0.0.1*" />
   <feature name="StatusBar">
@@ -32,7 +33,9 @@ Sebastian Frassia
 <gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
 <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
 <gap:plugin name="com.pushwoosh.plugins.pushwoosh" source="plugins.cordova.io" />
-
+<feature name="NetworkStatus">
+    <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+</feature>
 <icon src="icon.png" />
 <gap:platform name="ios" />
 <gap:platform name="android" />
