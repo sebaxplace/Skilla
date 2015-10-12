@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.skilla771026" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.ionicframework.skilla771026" 
+  version="0.0.1" 
+  xmlns="http://www.w3.org/ns/widgets"
+  xmlns:gap   = "http://phonegap.com/ns/1.0" 
+  xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>skilla</name>
   <description>
        Posterlab
     </description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Sebastian Frassia
-    </author>
+  <author href="http://www.xplacecompany.com/" email="sebastian@xplacecompany.com">
+Sebastian Frassia
+</author>
   <content src="index.html"/>
   <access origin="*"/>
   <feature name="StatusBar">
@@ -15,6 +19,17 @@
   <feature name="SplashScreen">
     <param name="android-package" value="org.apache.cordova.SplashScreen" />
   </feature>
+  <preference name="orientation" value="portrait" />
+<preference name="target-device" value="universal" />
+<preference name="prerendered-icon" value="true" />
+<gap:plugin name="org.apache.cordova.device" version="0.2.12" />
+<gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
+
+<gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
+<gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
+<gap:plugin name="com.pushwoosh.plugins.pushwoosh" source="plugins.cordova.io" />
+
+
 
   <platform name="ios">
     <icon src="resources/ios/icon/icon.png" width="57" height="57"/>
