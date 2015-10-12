@@ -1,15 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget xmls    = "http://www.w3.org/ns/widgets"
+  xmlns:gap   = "http://phonegap.com/ns/1.0"
+  id      = "com.skilla"
+  version   = "0.0.1">
 <widget id="com.ionicframework.skilla329503" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>skilla</name>
+  <name>Skilla</name>
   <description>
-        An Ionic Framework and Cordova project.
+        Posterlabs
     </description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
-    </author>
+  <author href="http://www.xplacecompany.com/" email="sebastian@xplacecompany.com">
+Sebastian Frassia
+</author>
+    <preference name="orientation" value="portrait" />
+<preference name="target-device" value="universal" />
+<preference name="prerendered-icon" value="true" />
+<gap:plugin name="com.ionic.keyboard">
+    <param name="onload" value="true"  />
+  </gap:plugin>
+<gap:plugin name="org.apache.cordova.device" version="0.2.12" />
+<gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
+<gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
+<gap:plugin name="org.li8.inappbrowser" version="0.1" />
+<gap:plugin name="com.pushwoosh.plugins.pushwoosh" source="plugins.cordova.io" />
+
+<preference name="android-targetSdkVersion" value="12" />
+<preference name="android-minSdkVersion" value="10" />
   <content src="index.html"/>
   <access origin="*"/>
   <access origin="*.pushwoosh.com" />
+<gap:platform name="ios" />
+<gap:platform name="android" />
+
+
+
+
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
