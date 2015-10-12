@@ -12,7 +12,9 @@
 Sebastian Frassia
 </author>
   <content src="index.html"/>
-  <access origin="*" />
+  <access origin="*" />                 
+   <allow-intent href="*" />
+   <allow-navigation href="*" />
 <access origin="*.pushwoosh.com"/>
 <access origin="http://127.0.0.1*" />
   <feature name="StatusBar">
