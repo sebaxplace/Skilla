@@ -11,7 +11,7 @@
   <author href="http://www.xplacecompany.com/" email="sebastian@xplacecompany.com">
 Sebastian Frassia
 </author>
-
+<plugin name="cordova-plugin-whitelist" version="1" />
 
   <platform name="ios">
     <icon src="resources/ios/icon/icon.png" width="57" height="57"/>
