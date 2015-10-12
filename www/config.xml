@@ -11,35 +11,7 @@
   <author href="http://www.xplacecompany.com/" email="sebastian@xplacecompany.com">
 Sebastian Frassia
 </author>
-  <content src="index.html"/>
-  <access origin="*" />     
-  <allow-navigation href="*" />            
-   <allow-intent href="*" />
-   <allow-navigation href="*" />
-   <feature name="http://api.phonegap.com/1.0/network"/>
-<access origin="*.pushwoosh.com"/>
-<access origin="http://127.0.0.1*" />
-  <feature name="StatusBar">
-    <param name="ios-package" value="CDVStatusBar" onload="true"/>
-  </feature>
-  <feature name="SplashScreen">
-    <param name="android-package" value="org.apache.cordova.SplashScreen" />
-  </feature>
-  <preference name="orientation" value="portrait" />
-<preference name="target-device" value="universal" />
-<preference name="prerendered-icon" value="true" />
-<gap:plugin name="org.apache.cordova.device" version="0.2.12" />
-<gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
-<gap:plugin name="com.albahra.plugin.networkinterface" version="1.0.7" />
-<gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
-<gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
-<gap:plugin name="com.pushwoosh.plugins.pushwoosh" source="plugins.cordova.io" />
-<feature name="NetworkStatus">
-    <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
-</feature>
-<icon src="icon.png" />
-<gap:platform name="ios" />
-<gap:platform name="android" />
+
 
   <platform name="ios">
     <icon src="resources/ios/icon/icon.png" width="57" height="57"/>
