@@ -12,10 +12,11 @@
 Sebastian Frassia
 </author>
   <content src="index.html"/>
-  <access origin="*" />                 
+  <access origin="*" />     
+  <allow-navigation href="*" />            
    <allow-intent href="*" />
    <allow-navigation href="*" />
-   
+   <feature name="http://api.phonegap.com/1.0/network"/>
 <access origin="*.pushwoosh.com"/>
 <access origin="http://127.0.0.1*" />
   <feature name="StatusBar">
